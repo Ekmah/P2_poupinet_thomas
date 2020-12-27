@@ -6,3 +6,20 @@ body
 {
     font-family: 'raleway';
 }
+*
+{
+    border: 1px black;
+}
+.hebergement
+{
+    width: 60%;
+}
+.flex
+{
+    display:flex;
+    
+}
+.box
+{
+    width: 30%;
+}
