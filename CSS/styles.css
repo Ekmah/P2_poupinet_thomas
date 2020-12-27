@@ -22,10 +22,13 @@ body
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
 }
 .box
 {
     width: 30%;
+    height: 45%;
     border: 1px black;
     background-color: blue;
+    padding: 2px;
 }
