@@ -13,13 +13,18 @@ body
 .hebergement
 {
     width: 60%;
+    height: 50%;
+    border: 1px black;
 }
 .flex
 {
     display:flex;
-    
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .box
 {
     width: 30%;
+    border: 1px black;
+    background-color: blue;
 }
