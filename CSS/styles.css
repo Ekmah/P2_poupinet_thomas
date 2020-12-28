@@ -16,6 +16,7 @@ body
     flex-wrap: wrap-reverse;
     min-height: 500px;
     padding: 40px;
+    align-items: center;
 }
 .hebergement
 {
@@ -39,12 +40,11 @@ body
 .flexbox
 {
     background-color: coral;
-    align-items: center;
 }
-.box
+.boxv1
 {
     width: 30%;
-    height: 10%;
+    height: 20%;
     background-color: blue;
     padding: 2px;
 }
