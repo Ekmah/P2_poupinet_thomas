@@ -65,6 +65,7 @@ body
     padding: 2px;
     min-width: 150px;
     border-radius: 15px;
+    background-color: white;
 }
 .boxv1
 {
@@ -82,4 +83,8 @@ body
     height: 30%;
 
 
+}
+footer
+{
+    background-color:#F2F2F2;
 }
