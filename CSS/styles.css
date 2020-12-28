@@ -57,6 +57,7 @@ body
     padding: 2px;
     margin: auto;
     min-width: 200px;
+    border-radius: 5px;
 }
 .boxv1
 {
