@@ -58,6 +58,7 @@ body
 }
 .box
 {
+    min-width: 30%;
     margin: 5px;
     padding: 2px;
     border-radius: 15px;
