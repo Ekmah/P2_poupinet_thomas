@@ -17,6 +17,8 @@ body
     min-width: 260px;
     background-color:#F2F2F2;
     border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
 }
 .populaire
 {
@@ -25,6 +27,8 @@ body
     min-width: 260px;
     background-color:#F2F2F2;
     border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
 }
 .flex
 {
@@ -37,7 +41,7 @@ body
 
     flex-wrap: wrap-reverse;
     min-height: 500px;
-    padding: 50px;
+    padding: 10px;
     min-width: 260px;
 }
 .flexbox
