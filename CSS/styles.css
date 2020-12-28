@@ -46,7 +46,9 @@ body
 }
 .flexbox
 {
-
+    min-width: 200px;
+    flex-wrap: wrap;
+    padding: 5px;
 }
 .flexpopu
 {
@@ -59,10 +61,9 @@ body
 }
 .box
 {
-
+    margin: 5px;
     padding: 2px;
-    margin: auto;
-    min-width: 200px;
+    min-width: 150px;
     border-radius: 15px;
 }
 .boxv1
