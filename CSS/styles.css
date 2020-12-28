@@ -15,14 +15,16 @@ body
     width: 60%;
     height: 50%;
     min-width: 260px;
-    background-color: brown;
+    background-color:#F2F2F2;
+    border-radius: 15px;
 }
 .populaire
 {
     width: 30%;
     height:50%;
     min-width: 260px;
-    background-color: brown;
+    background-color:#F2F2F2;
+    border-radius: 15px;
 }
 .flex
 {
@@ -32,7 +34,7 @@ body
 }
 .middle
 {
-    background-color: cadetblue;
+
     flex-wrap: wrap-reverse;
     min-height: 500px;
     padding: 50px;
@@ -40,7 +42,7 @@ body
 }
 .flexbox
 {
-    background-color: coral;
+
 }
 .flexpopu
 {
@@ -53,11 +55,11 @@ body
 }
 .box
 {
-    background-color: blue;
+
     padding: 2px;
     margin: auto;
     min-width: 200px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .boxv1
 {
