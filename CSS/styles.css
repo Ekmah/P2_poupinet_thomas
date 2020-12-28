@@ -8,14 +8,27 @@ body
 }
 *
 {
-    border: 1px black;
+    
+}
+.middle
+{
+    background-color: cadetblue;
+    flex-wrap: wrap-reverse;
+    min-height: 500px;
+    padding: 40px;
 }
 .hebergement
 {
     width: 60%;
     height: 50%;
-    border: 1px black;
     background-color: brown;
+}
+.populaire
+{
+    widows: 30%;
+    height:50%;
+    background-color: brown;
+    flex-direction: column;
 }
 .flex
 {
@@ -23,11 +36,27 @@ body
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.flexbox
+{
+    background-color: coral;
+    align-items: center;
+}
 .box
 {
     width: 30%;
-    height: 45%;
-    border: 1px black;
+    height: 10%;
+    background-color: blue;
+    padding: 2px;
+}
+.boxv2
+{
+    height: 30%;
+    background-color: blue;
+    padding: 2px;
+}
+.boxv3
+{
+    height: 30%;
     background-color: blue;
     padding: 2px;
 }
