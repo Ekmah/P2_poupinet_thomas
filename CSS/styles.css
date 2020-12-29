@@ -16,37 +16,28 @@ body
 {
     min-width: 260px;
     width: 65%;
-    /*display: inline-block;*/
     background-color:#F2F2F2;
     border-radius: 15px;
     padding: 20px;
-
 }
 .populaire
 {
     min-width: 260px;
     width: 25%;
-    /*display: inline-block;*/
     background-color:#F2F2F2;
     border-radius: 15px;
     padding: 20px;
-
 }
 .flex
 {
     display:flex;
-    /*flex-wrap: wrap;*/
-
 }
 main
 {
-
     flex-wrap: wrap-reverse;
     min-height: 500px;
     padding: 10px;
     justify-content: space-between;
-    /*min-width: 260px;
-    flex-direction: row;*/
 }
 .flexbox
 {
