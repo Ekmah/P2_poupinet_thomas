@@ -94,4 +94,8 @@ footer
     {
         border-radius: 0px;
     }
+    .footer
+    {
+        flex-direction: column;
+    }
 }
