@@ -14,7 +14,6 @@ body
 }
 .hebergement
 {
-    min-width: 260px;
     width: 65%;
     background-color:#F2F2F2;
     border-radius: 15px;
@@ -22,7 +21,6 @@ body
 }
 .populaire
 {
-    min-width: 260px;
     width: 25%;
     background-color:#F2F2F2;
     border-radius: 15px;
@@ -36,7 +34,6 @@ main
 {
     flex-wrap: wrap-reverse;
     min-height: 500px;
-    padding: 10px;
     justify-content: space-between;
 }
 .flexbox
@@ -66,4 +63,39 @@ main
 footer
 {
     background-color:#F2F2F2;
+}
+@media screen and (max-width: 1020px)
+{
+    .hebergement
+    {
+
+        width: 100%;
+
+    }
+    .populaire
+    {
+
+        width: 100%;
+
+    }
+    .flexpopu
+    {
+        flex-direction: row;
+        min-height: auto;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    body
+    {
+        margin: 0px;
+    }
+    .hebergement
+    {
+        background-color: white;
+    }
+    .populaire
+    {
+        border-radius: 0px;
+    }
 }
