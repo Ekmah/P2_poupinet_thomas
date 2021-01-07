@@ -64,6 +64,10 @@ footer
 {
     background-color:#F2F2F2;
 }
+.footer
+{
+    justify-content: space-between;
+}
 @media screen and (max-width: 1020px)
 {
     .hebergement
