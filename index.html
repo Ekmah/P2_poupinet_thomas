@@ -9,21 +9,45 @@
         <header>
             <div>
                 <!--Hébergements, Activités, S'inscrire-->
+                <nav>
+                    <ul>
+                        <li class="navhebergement"><a href="#hebergement">Hébergements</a></li>
+                        <li class="navactivite"><a href="#activite">Activités</a></li>
+                    </ul>
+                </nav>
+                <div class="signup">
+                    <p>S'inscrire</p>
+                </div>
             </div>
         </header>
         <section class="container top">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
             <div class="searchbar">
+                <form method="post" action="traitement.php">
+                    <p>
+                        <label for="searchbar">Icon<label>
+                        <input type="search" name="searchbar" id="searchbar" placeholder="Marseille, France" class="searchbartext"/>
+                        <input type="submit" value="Rechercher" class="submit"/>
+                    </p>
+                </form>
             </div>
             <div>
                 <!--barre des filtres-->
-                <p>Filtres</p>
+                <h3>Filtres</h3>
                 <div class="flex flexfiltre">
-                    <div class="filtre"></div>
-                    <div class="filtre"></div>
-                    <div class="filtre"></div>
-                    <div class="filtre"></div>
+                    <div class="filtre">
+                        <h3>Economique</h3>
+                    </div>
+                    <div class="filtre">
+                        <h3>Familial</h3>
+                    </div>
+                    <div class="filtre">
+                        <h3>Romantique</h3>
+                    </div>
+                    <div class="filtre">
+                        <h3>Animaux autorisés</h3>
+                    </div>
                 </div>
             </div>
             <div>
@@ -33,7 +57,7 @@
         <!-- <section class="middle"> -->
         <main class="container flex">
             <!--première section-->
-            <div class="hebergement">
+            <div id="hebergement" class="hebergement">
                 <h2>Hébergements à Marseille</h2>
                 <div class="flex flexbox flexheber">
                     <div class="box boxv1">
@@ -145,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <p>Afficher plus</p>
+                <h3>Afficher plus</h3>
             </div>
             <div class="populaire">
                 <h2>Les plus populaires</h2>
