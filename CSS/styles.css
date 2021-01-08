@@ -71,6 +71,12 @@ main
     max-width: 100px;
     max-height: 100px;
 }
+
+.fa-star
+{
+    max-width: 13px;
+    max-height: 13px;
+}
 footer
 {
     background-color:#F2F2F2;
