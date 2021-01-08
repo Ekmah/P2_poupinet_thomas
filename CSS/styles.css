@@ -62,14 +62,20 @@ main
 }
 .boxv1
 {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
     
+}
+.image
+{
+    max-width: 100%;
+    max-height: 60%;
+    overflow: hidden;
+    border-radius: 15px;
 }
 .imagesrc
 {
-    max-width: 100px;
-    max-height: 100px;
+    overflow: hidden;
 }
 
 .fa-star
