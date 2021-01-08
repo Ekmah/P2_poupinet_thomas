@@ -6,3 +6,100 @@ body
 {
     font-family: 'raleway';
 }
+.container
+{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.hebergement
+{
+    width: 65%;
+    background-color:#F2F2F2;
+    border-radius: 15px;
+    padding: 20px;
+}
+.populaire
+{
+    width: 25%;
+    background-color:#F2F2F2;
+    border-radius: 15px;
+    padding: 20px;
+}
+.flex
+{
+    display:flex;
+}
+main
+{
+    flex-wrap: wrap-reverse;
+    min-height: 500px;
+    justify-content: space-between;
+}
+.flexbox
+{
+    min-width: 200px;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}
+.flexpopu
+{
+    flex-direction: column;
+    min-height: 450px;
+}
+.flexheber
+{
+    min-height: 450px;
+}
+.box
+{
+    min-width: 30%;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: white;
+}
+footer
+{
+    background-color:#F2F2F2;
+}
+.footer
+{
+    justify-content: space-between;
+}
+@media screen and (max-width: 1020px)
+{
+    .hebergement
+    {
+        width: 100%;
+    }
+    .populaire
+    {
+        width: 100%;
+    }
+    .flexpopu
+    {
+        flex-direction: row;
+        min-height: auto;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    body
+    {
+        margin: 0px;
+    }
+    .hebergement
+    {
+        background-color: white;
+    }
+    .populaire
+    {
+        border-radius: 0px;
+    }
+    .footer
+    {
+        flex-direction: column;
+    }
+}
