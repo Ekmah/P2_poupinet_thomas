@@ -55,15 +55,15 @@ main
 .box
 {
     min-width: 30%;
-    margin: 5px;
-    padding: 2px;
+    /*margin: 5px;*/
+    padding: 4px;
     border-radius: 15px;
     background-color: white;
 }
 .boxv1
 {
-    max-width: 200px;
-    max-height: 200px;
+    width: 150px;
+    height: 150px;
     
 }
 .boxv1 .image
@@ -95,8 +95,8 @@ img
 }
 .fa-star
 {
-    max-width: 13px;
-    max-height: 13px;
+    max-width: 10px;
+    max-height: 10px;
 }
 footer
 {
