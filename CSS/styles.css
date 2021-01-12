@@ -7,6 +7,24 @@ body
     font-family: 'raleway';
     font-size: smaller;
 }
+.filtre
+{
+    border-width: 3px;
+    border-color: #F2F2F2;
+    border-radius: 20px;
+}
+.iconfiltre
+{
+    border-width: 3px;
+    border-color: #DEEBFF;
+    border-radius: 20px;
+    background-color: #DEEBFF;
+}
+.filtresvg
+{
+    height: 25px;
+    width: 25px;
+}
 .container
 {
     max-width: 1000px;
