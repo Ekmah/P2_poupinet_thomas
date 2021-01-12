@@ -18,8 +18,19 @@ body
 {
     text-align: right;
     display: inline;
+    
 }
-.navhebergement,.navactivite:hover
+a
+{
+    text-decoration-line: none;
+    text-decoration-color: black;
+    color: black;
+}
+.signup
+{
+    color: #0065FC;
+}
+.navhebergement,.navactivite, .navactivite a,.navhebergement a:hover
 {
     border-top: 2px solid #0065FC;
     color: #0065FC;
