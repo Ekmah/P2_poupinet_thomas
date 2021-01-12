@@ -35,6 +35,11 @@ body
     border: 2px solid #F2F2F2;
     height: 25px;
 }
+.filtre:hover
+{
+    border: 2px solid #0065FC;
+    color: #0065FC;
+}
 .iconfiltre
 {
     border-radius: 20px;
