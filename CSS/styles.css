@@ -7,9 +7,22 @@ body
     font-family: 'raleway';
     font-size: smaller;
 }
+.boxv2 p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width:60%
+}
 .navhebergement, .navactivite, .signup
 {
     text-align: right;
+    display: inline;
+}
+.navhebergement,.navactivite:hover
+{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
 }
 .fa-map-marker-alt
 {
@@ -107,6 +120,7 @@ main
     padding: 4px;
     border-radius: 15px;
     background-color: white;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
 }
 .boxv1
 {
@@ -156,6 +170,21 @@ img
     max-width: 10px;
     max-height: 10px;
 }
+.flexactivi
+{
+    min-height: 500px;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+.boxv3
+{
+    width: 20%;
+    height: 48%;
+}
+.boxv3:nth-child(1n)
+{
+    height: 100%;
+}
 footer
 {
     background-color:#F2F2F2;
@@ -164,6 +193,8 @@ footer
 {
     justify-content: space-between;
 }
+
+
 @media screen and (max-width: 1020px)
 {
     .hebergement
