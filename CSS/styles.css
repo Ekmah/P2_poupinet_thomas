@@ -7,6 +7,11 @@ body
     font-family: 'raleway';
     font-size: smaller;
 }
+.fa-map-marker-alt
+{
+    height: 15px;
+    width: 15px;
+}
 .filtre
 {
     border-width: 3px;
@@ -24,6 +29,17 @@ body
 {
     height: 25px;
     width: 25px;
+}
+.infocircle
+{
+    border-width: 5px;
+    border-color: #F2F2F2;
+    border-radius: 20px;
+}
+.fa-info
+{
+    height: 10px;
+    width: 10px;
 }
 .container
 {
