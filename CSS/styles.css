@@ -7,6 +7,10 @@ body
     font-family: 'raleway';
     font-size: smaller;
 }
+.navhebergement, .navactivite, .signup
+{
+    text-align: right;
+}
 .fa-map-marker-alt
 {
     height: 15px;
@@ -14,17 +18,20 @@ body
 }
 .filtre
 {
-    border-width: 3px;
-    border-color: #F2F2F2;
     border-radius: 20px;
+    border: 2px solid #F2F2F2;
+    height: 25px;
 }
 .iconfiltre
 {
-    border-width: 3px;
-    border-color: #DEEBFF;
     border-radius: 20px;
+    border: 2px solid #DEEBFF;
     background-color: #DEEBFF;
+    height: 25px;
+    width: 25px;
+
 }
+
 .filtresvg
 {
     height: 25px;
@@ -41,9 +48,15 @@ body
     height: 10px;
     width: 10px;
 }
+.fa-chart-line
+{
+    height: 20px;
+    width: 20px;
+    float:right;
+}
 .container
 {
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
     margin: auto;
 }
@@ -132,6 +145,11 @@ img
 {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+.boxv3 img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .fa-star
 {
