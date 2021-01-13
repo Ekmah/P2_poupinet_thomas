@@ -71,6 +71,9 @@ body
     height: 20px;
     width: 20px;
     float:right;
+    position: absolute;
+    bottom: 550;
+    left: 265;
 }
 .container
 {
@@ -91,6 +94,7 @@ body
     background-color:#F2F2F2;
     border-radius: 15px;
     padding: 20px;
+    position: relative;
 }
 .flex
 {
@@ -121,7 +125,7 @@ main
 .box
 {
     min-width: 30%;
-    /*margin: 5px;*/
+    margin: 5px;
     padding: 4px;
     border-radius: 15px;
     background-color: white;
@@ -177,16 +181,36 @@ img
 }
 .flexactivi
 {
-    min-height: 500px;
+    max-height: 500px;
     flex-direction: column;
     justify-content: space-between ;
+}
+.boxv3text
+{
+    max-height: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 10;
+    left: 10;
+    
 }
 .boxv3
 {
     width: 20%;
     height: 48%;
+    min-height: 100px;
+    position: relative;
+}
+.boxv3 .image
+{
+    width:100%;
+    min-height: 60px;
 }
 .boxv3:nth-child(1n)
+{
+    min-height: 100%;
+}
+.boxv3:nth-child(4n)
 {
     height: 100%;
 }
@@ -233,5 +257,9 @@ footer
     .footer
     {
         flex-direction: column;
+    }
+    .boxv1, .boxv2,.boxv3
+    {
+        min-width: 100%;
     }
 }
