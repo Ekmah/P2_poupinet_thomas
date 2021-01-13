@@ -146,11 +146,18 @@ main
 {
     width: 250px;
     height: 100px;
+    position: relative;
 }
 .boxv2 .image
 {
     width: 40%;
     height: 100%;
+}
+.boxv2text
+{
+    position: absolute;
+    bottom: 35px;
+    left: 115px;
 }
 img
 {
@@ -229,6 +236,7 @@ footer
     .hebergement
     {
         width: 100%;
+        margin-top: 10px;
     }
     .populaire
     {
