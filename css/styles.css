@@ -42,7 +42,6 @@ a
 }
 .filtresection
 {
-    display: flex;
     align-items: center;
 }
 .flexfiltre
@@ -74,7 +73,6 @@ a
     border-radius: 20px;
     border: 2px solid #e6e6e6;
     height: 25px;
-    display: flex;
     align-items: center;
     background-color: white;
     padding: 0px;
@@ -89,7 +87,6 @@ a
     margin-left: -2px;
     width: 13px;
     height: 13px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -101,30 +98,42 @@ a
 
 .infocircle
 {
-    border-width: 5px;
-    border-color: #F2F2F2;
     border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
 }
-.fa-info
+.infocircle i
 {
     height: 8px;
     width: 8px;
+    align-items: center;
+    justify-content: center;
+
+}
+.infotext
+{
+    margin: 5px;
+}
+.fa-info
+{
     color: #0065FC;
     padding: 4px;
     border-radius: 10px;
-    border: 2px solid #e6e6e6;
-    display: flex;
+    border: 1px solid #e6e6e6;
+}
+.headpopu
+{
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
 .fa-chart-line
 {
-    height: 20px;
-    width: 20px;
-    float:right;
-    position: absolute;
-    bottom: 550;
-    left: 265;
+    margin-right: 10px;
+}
+.headpopu i
+{
+    height:10px;
+    width: 10px;
 }
 .container
 {
@@ -167,16 +176,16 @@ main
 .flexpopu
 {
     flex-direction: column;
-    min-height: 450px;
+    align-content: space-evenly;
 }
 .flexheber
 {
-    min-height: 450px;
+    align-content: space-evenly;
 }
 .box
 {
-    min-width: 30%;
-    margin: 5px;
+    min-width: 27%;
+    margin: 15px;
     padding: 4px;
     border-radius: 15px;
     background-color: white;
@@ -184,7 +193,7 @@ main
 }
 .boxv1
 {
-    width: 150px;
+    max-width: 27%;
     height: 150px;
     
 }
@@ -198,7 +207,6 @@ main
     width: 250px;
     height: 100px;
     position: relative;
-    display: flex;
 }
 .boxv2 .image
 {
@@ -233,10 +241,18 @@ img
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.fa-star
+.box .gray
 {
-    max-width: 10px;
-    max-height: 10px;
+    color:#e6e6e6;
+}
+.box i
+{
+    color: #0065FC;
+}
+.boxv2text span
+{
+    position: absolute;
+    bottom: 10px;
 }
 .flexactivi
 {
