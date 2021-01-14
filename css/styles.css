@@ -309,9 +309,17 @@ img
 {
     height: 100%;
 }
-.boxc21, .boxc22, .boxc41, .boxc42
+.boxc41, .boxc42
 {
     height: 45%;
+}
+.boxc21
+{
+    height:55%;
+}
+.boxc22
+{
+    height:35%;
 }
 .boxv3text
 {
