@@ -6,6 +6,13 @@ body
 {
     font-family: 'raleway';
     font-size: smaller;
+    margin: 2px;
+}
+header
+{
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 .reservia
 {
@@ -19,11 +26,12 @@ body
     margin-inline-end: 0px;
     width:60%
 }
-.navhebergement, .navactivite, .signup
+.navlink, .signup
 {
-    text-align: right;
+    text-align: center;
     display: inline;
-    
+    padding: 20px;
+    border-bottom: 3px transparent solid;
 }
 a
 {
@@ -35,9 +43,9 @@ a
 {
     color: #0065FC;
 }
-.navhebergement,.navactivite, .navactivite a,.navhebergement a:hover
+.navlink:hover
 {
-    border-top: 2px solid #0065FC;
+    border-top: 3px solid #0065FC;
     color: #0065FC;
 }
 .fa-map-marker-alt
@@ -337,6 +345,7 @@ footer
 .flexfooter
 {
     flex-direction: column;
+    padding: 20px;
 }
 
 
