@@ -40,6 +40,17 @@ a
     height: 15px;
     width: 15px;
 }
+.filtresection
+{
+    display: flex;
+    align-items: center;
+}
+.flexfiltre
+{
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin-left: 15px;
+}
 .filtre
 {   
     display: block;
