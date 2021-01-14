@@ -6,15 +6,17 @@
         <title>Reservia.com</title>
     </head>
     
-    <body><!--NOTE: ALL SVG CODE is from Font Awesome licence: https://fontawesome.com/license only changed fill color & class-->
+    <body><!--NOTE: ALL SVG CODE is from Font Awesome licence: https://fontawesome.com/license only changed in the all.css, the fas display:inline-block to inline-flex-->
         <header class="container flex">
             <!--Hébergements, Activités, S'inscrire-->
             <div>
                 <img class="reservia" src="images/logo/Reservia.svg" alt="reservia">
             </div>
             <div>
-                <a class="navlink" href="#hebergement">Hébergements</a>
-                <a class="navlink" href="#activite">Activités</a>
+                <div class="nav">
+                    <a class="navlink" href="#hebergement">Hébergements</a>
+                    <a class="navlink" href="#activite">Activités</a>
+                </div>
                 <div class="signup">
                     <span>S'inscrire</span>
                 </div>
@@ -22,50 +24,46 @@
         </header>
         <section class="container top">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <div>En plein centre ville ou en pleine nature</div>
-            <div class="searchbar">
-                <form method="post" action="traitement.php">
-                    <div>
-                        <label for="searchbar">
-                            <i class="fas fa-map-marker-alt"></i>
-                        <label>
-                        <input type="search" name="searchbar" id="searchbar" placeholder="Marseille, France" class="searchbartext"/>
-                        <input type="submit" value="Rechercher" class="submit"/>
-                    </div>
-                </form>
-            </div>
+            En plein centre ville ou en pleine nature
+            <form class="searchbar flex" method="post" action="traitement.php">
+                <span>
+                    <i class="fas fa-map-marker-alt flex"></i>
+                </span>
+                <input type="search" name="searchbar" id="searchbar" placeholder="Marseille, France" class="searchbartext"/>
+                <input type="submit" value="Rechercher" class="submit"/>
+            </form>
             <div class="filtresection flex">
                 <!--barre des filtres-->
                 <h3>Filtres</h3>
                 <div class="flex flexfiltre">
-                    <div class="filtre">
-                        <button class="iconfiltre flex">
+                    <button class="filtre flex">
+                        <div class="iconfiltre">
                             <i class="fas fa-money-bill-wave "></i>
-                            <span class="filtretext">Economique</span>
-                        </button>
-                    </div>
-                    <div class="filtre">
-                        <button class="iconfiltre flex">
+                        </div>
+                        <span class="filtretext">Economique</span>
+                    </button>
+                    <button class="filtre flex">
+                        <div class="iconfiltre">
                             <i class="fas fa-child flex"></i>
-                            <span class="filtretext">Familial</span>
-                        </button>
-                    </div>
-                    <div class="filtre">
-                        <button class="iconfiltre flex">
+                        </div>
+                        <span class="filtretext">Familial</span>
+                    </button>
+                    <button class="filtre flex">
+                        <div class="iconfiltre">
                             <i class="fas fa-heart flex"></i>
-                            <span class="filtretext">Romantique</span>
-                        </button>
-                    </div>
-                    <div class="filtre">
-                        <button class="iconfiltre flex">
+                        </div>
+                        <span class="filtretext">Romantique</span>
+                    </button>
+                    <button class="filtre flex">
+                        <div class="iconfiltre">
                             <i class="fas fa-dog flex"></i>
-                            <span class="filtretext">Animaux autorisés</span>
-                        </dbutton>
-                    </div>
+                        </div>
+                        <span class="filtretext">Animaux autorisés</span>
+                    </dbutton>
                 </div>
             </div>
             <div class="infocircle flex">
-                <i class="fas fa-info fa-xs flex"></i><!-- fa-xs is Xtra Small in comparison to the font size of the parent div -->
+                <div class="infocircleicon"><i class="fas fa-info fa-xs flex"></i></div><!-- fa-xs is Xtra Small in comparison to the font size of the parent div -->
                 <span class="infotext">Plus de 500 logements sont disponibles dans cette ville</span>
             </div> 
         </section>
