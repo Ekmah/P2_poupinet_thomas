@@ -100,9 +100,22 @@ h1
     padding: 0px 10px;
     cursor: pointer;
 }
+.submit:hover
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
 .submitIcon
 {
     display: none;
+}
+.submitIcon:hover
+{
+    background-color: #DEEBFF;
+}
+.submitIcon:hover i
+{
+    color: #0065FC;
 }
 .filtresection
 {
@@ -399,6 +412,10 @@ footer
 {
     flex-direction: column;
     padding: 20px;
+}
+.footer a:hover
+{
+    color: #0065FC;
 }
 
 
