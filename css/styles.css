@@ -10,10 +10,15 @@ body
 }
 header
 {
+    
+    height: 80px;
+    
+    flex-wrap: wrap;
+}
+.head
+{
     justify-content: space-between;
     align-items: center;
-    height: 60px;
-    flex-wrap: wrap;
     margin: auto;
 }
 .reservia
@@ -31,9 +36,10 @@ header
 .navlink, .signup
 {
     text-align: center;
-    display: inline;
+    /*display: inline;*/
     padding: 20px;
     border-top: 3px transparent solid;
+    width: 120px;
 }
 a
 {
@@ -53,8 +59,8 @@ a
 }
 .nav
 {
-    display: inline-flex;
-    justify-content: space-around;
+    flex: 1;
+    justify-content: flex-end;
 }
 h1
 {
@@ -94,7 +100,10 @@ h1
     padding: 0px 10px;
     cursor: pointer;
 }
-
+.submitIcon
+{
+    display: none;
+}
 .filtresection
 {
     align-items: center;
@@ -118,6 +127,7 @@ h1
     font-size: smaller;
     font-weight: bolder;
     margin-right: 20px;
+    margin-bottom: 5px;
 }
 .filtre:hover
 {
@@ -400,6 +410,35 @@ footer
         flex-direction: row;
         min-height: auto;
     }
+    header
+    {
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .reservia
+    {
+        margin-left: 20px;
+    }
+    .top
+    {
+        margin-top: 50px;
+    }
+    .nav
+    {   
+        flex-basis: 100%;
+        order: 2;
+    }
+    .navlink
+    {
+        border-bottom: 3px solid transparent;
+        padding: 20px 20%;
+    }
+    .navlink:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        border-top: 3px solid transparent;
+    }
 }
 @media screen and (max-width: 500px)
 {
@@ -410,20 +449,39 @@ footer
     }
     header
     {
-        height: 200px;
-        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
     }
     .reservia
     {
-        position: absolute;
-        top: 20px;
-        left: 20px;
+        margin-left: 20px;
     }
-    .signup
+    .top
     {
-        position: absolute;
-        top: 20px;
-        right: 20px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .submit
+    {
+        display: none;
+    }
+    .submitIcon
+    {
+        border: 0px transparent solid ;
+        background-color: #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .submitIcon i
+    {
+        padding: 6px;
+        color: white;
+        margin-left: -2px;
+        width: 13px;
+        height: 13px;
+        align-items: center;
+        justify-content: center;
     }
     .filtresection
     {
@@ -448,22 +506,24 @@ footer
     }
     .activite h2
     {
-        margin-left: 10px;
+       margin-left: 10px;
     }
     .columnactivi
     {
-        width: 100%;
+        width: 95%;
         height: auto;
-        margin: 10px;
     }
     .boxv3
     {
         height: 150px;
+        
+        margin-left: 10px;
+        margin-bottom: 20px;
     }
     .nav
     {   
-        align-self: flex-end;
-        display: flex;
+        flex-basis: 100%;
+        order: 2;
     }
     .navlink
     {

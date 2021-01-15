@@ -9,18 +9,17 @@
     <body><!--NOTE: ALL SVG CODE is from Font Awesome licence: https://fontawesome.com/license only changed in the all.css, the fas display:inline-block to inline-flex-->
         <header class="container flex">
             <!--Hébergements, Activités, S'inscrire-->
-            <div>
-                <img class="reservia" src="images/logo/Reservia.svg" alt="reservia">
-            </div>
-            <div>
-                <div class="nav">
+                <div>
+                    <img class="reservia" src="images/logo/Reservia.svg" alt="reservia">
+                </div>
+                <div class="nav flex">
                     <a class="navlink" href="#hebergement">Hébergements</a>
                     <a class="navlink" href="#activite">Activités</a>
                 </div>
                 <div class="signup">
                     <span>S'inscrire</span>
                 </div>
-            </div>
+            
         </header>
         <section class="container top">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -31,6 +30,7 @@
                 </span>
                 <input type="search" name="searchbar" id="searchbar" placeholder="Marseille, France" class="searchbartext"/>
                 <input type="submit" value="Rechercher" class="submit"/>
+                <button type="submit" class="submitIcon flex"><i class="fas fa-search flex"></i></button>
             </form>
             <div class="filtresection flex">
                 <!--barre des filtres-->
@@ -38,7 +38,7 @@
                 <div class="flex flexfiltre">
                     <button class="filtre flex">
                         <div class="iconfiltre">
-                            <i class="fas fa-money-bill-wave "></i>
+                            <i class="fas fa-money-bill-wave flex"></i>
                         </div>
                         <span class="filtretext">Economique</span>
                     </button>
