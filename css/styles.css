@@ -451,6 +451,29 @@ footer
     {
         display: none;
     }
+    .boxv2
+    {
+        max-width: 27%;
+        height: 200px;
+        flex-direction: column;
+    }
+    .boxv2text
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: unset;
+    }
+    .boxv2 .image
+    {
+        width: 100%;
+        height: 60%;
+    }
+    .boxv2 img
+    {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+    }
 }
 @media screen and (max-width: 740px)
 {
