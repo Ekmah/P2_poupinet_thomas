@@ -51,6 +51,7 @@ a
 {
     color: #0065FC;
     font-weight: bold;
+    cursor: pointer;
 }
 .navlink:hover
 {
