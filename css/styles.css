@@ -32,7 +32,6 @@ body
 .navlink, .signup
 {
     text-align: center;
-    /*display: inline;*/
     padding: 20px;
     border-top: 3px transparent solid;
     width: 120px;
@@ -276,7 +275,6 @@ h1
 {
     max-width: 27%;
     height: 150px;
-    
 }
 .boxv1 .image
 {
@@ -527,10 +525,6 @@ footer
     {
         min-width: 100%;
     }
-    /*.activite h2
-    {
-       margin-left: 10px;
-    }*/
     .columnactivi
     {
         width: 95%;
@@ -539,7 +533,6 @@ footer
     .boxv3
     {
         height: 150px;
-        
         margin-left: 10px;
         margin-bottom: 20px;
     }
