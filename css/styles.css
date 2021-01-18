@@ -29,13 +29,6 @@ body
     width: 100px;
     height:40px;
 }
-.boxv2 p {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    width:60%
-}
 .navlink, .signup
 {
     text-align: center;
@@ -134,7 +127,7 @@ h1
 .filtre
 {   
     border-radius: 20px;
-    border: 2px solid #e6e6e6;
+    border: 2px solid #F2F2F2;
     height: 25px;
     align-items: center;
     background-color: white;
@@ -198,7 +191,7 @@ h1
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #F2F2F2;
     color: #0065FC;
 }
 .headpopu
@@ -334,7 +327,7 @@ img
 }
 .box .gray
 {
-    color:#e6e6e6;
+    color:#F2F2F2;
 }
 .box i
 {
